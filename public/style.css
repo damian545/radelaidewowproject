@@ -1,0 +1,59 @@
+body {
+  background: url("https://attachment.outlook.live.net/owa/MSA%3ADAM180%40hotmail.com/service.svc/s/GetAttachmentThumbnail?id=AQMkADAwATZiZmYAZC05ZmFiLWI1ZjMtMDACLTAwCgBGAAADxeHU0ki%2BMEqWo4RJgW6WYgcA2emy4VqqikCQtSnD4NJvcgAAAgEMAAAA2emy4VqqikCQtSnD4NJvcgAD6WOmhgAAAAESABAAlH79uc9LrkO%2BlajPjoSvYg%3D%3D&thumbnailType=2&owa=outlook.live.com&scriptVer=2020072701.07&isc=1&X-OWA-CANARY=QweUcutcDUmFQ8VjW6cONPCpiVizNdgYEem9kF3bPPRc5SFW8vl7SGfTFVgSQ01k8J3r6eqb1Cw.&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkiLCJ0eXAiOiJKV1QifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2subGl2ZS5jb20iLCJ1YyI6IjQ5ODZiNmNmZjcwMzRkYTlhMTdjZGE5NTgxY2ZkMTI3IiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInByaW1hcnlzaWRcIjpcIlMtMS0yODI3LTQ0MjM2NS0yNjc4ODMwNTc5XCIsXCJwdWlkXCI6XCIxODk5OTQ1ODg2NzI1NjE5XCIsXCJvaWRcIjpcIjAwMDZiZmZkLTlmYWItYjVmMy0wMDAwLTAwMDAwMDAwMDAwMFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNTk2MjQyMzUxLCJleHAiOjE1OTYyNDI5NTEsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudC5vdXRsb29rLmxpdmUubmV0QDg0ZGY5ZTdmLWU5ZjYtNDBhZi1iNDM1LWFhYWFhYWFhYWFhYSIsImhhcHAiOiJvd2EifQ.O1Ypc2D2Tai5pTo2Te-NzEdwCULh92QGpHLhwpqtP583nc5QfceDkadMPYT9gW59d5UafdlD_smYe0RXx319ye-_12spqYIq03jPpKddJ7fma3-0veDKYrlsQJUwBqql9tzHmGPWNA4wDpFdQ_r4riH62iay1fhQMFP5amUdTqzuKMfaGEmS36zYMK2N_c6KNf6YEzK3yHzG306GO_2ownvp6g8nw1W4xu1i9lt1jg5TxhuaHZlqUeUC8G_Z4BQrtMrQWlP-TYSiNMqi78EsIRMgOT5zQ0NQiXnpsNMia19-dOPf6v2Leiuq5KVj4CGSgvg3l77f3_MmpI6D1tBbgw&animation=true")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  width: 100%;
+  color: white;
+}
+h2 {
+  position: absolute;
+  top: 500px;
+  left: 160px;
+  width: 100%;
+  color: white;
+}
+div.fixed {
+  position: absolute;
+  top: 600px;
+  left: 115px;
+  width: 100%;
+  color: white;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: lightblue;
+  font-family: "poppins", sans-serif;
+}
+.logo {
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+li {
+  display: flex;
+}
